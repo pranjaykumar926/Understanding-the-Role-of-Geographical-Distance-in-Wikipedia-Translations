@@ -1,4 +1,4 @@
-# Wikipedia Edits Analysis
+# Understanding the Role of Geographical Distance in Wikipedia Translations
 
 **Author:** [Pranjay Kumar](https://github.com/pranjaykumar926)
 **Contact:** [pranjaykumar926@gmail.com](mailto:pranjaykumar926@gmail.com)

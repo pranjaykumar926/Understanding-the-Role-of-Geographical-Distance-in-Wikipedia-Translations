@@ -19,54 +19,72 @@
 6. [Usage](#usage)
 7. [Visualizations and Key Insights](#visualizations-and-key-insights)
 8. [Distance Metric](#distance-metric)
-9. [Planned Enhancements](#planned-enhancements)
-10. [Contributing Guidelines](#contributing-guidelines)
-11. [License](#license)
-12. [Contact Information](#contact-information)
+9. [Project Structure](#project-structure)
+10. [Planned Enhancements](#planned-enhancements)
+11. [Contributing Guidelines](#contributing-guidelines)
+12. [License](#license)
+13. [Contact Information](#contact-information)
 
 ---
 
 ## Introduction
 
-Wikipedia is among the most actively edited and accessed online encyclopedias. This project is designed to examine patterns in Wikipedia edits with a specific focus on language and geographical distribution.
+Wikipedia is one of the world's largest collaborative knowledge platforms, with articles available across hundreds of language editions.
 
-Key objectives include:
+This project investigates the role of **geographical distance in Wikipedia translations**. It analyzes relationships between language editions, countries, geographical distances, and translation patterns.
 
-- Analyzing the **spatial distribution** of Wikipedia contributions
-- Studying **temporal trends** in edit activity
-- Investigating **language-wise differences** in contributions
-- Understanding the role of **geographical distance** in Wikipedia translations
-- Delivering **visual insights** through interactive and static representations
+### Objectives
+
+- Analyze the **spatial distribution** of Wikipedia contributions.
+- Investigate the relationship between **geographical distance and translations**.
+- Study **language-wise differences** in Wikipedia activity.
+- Construct geographical and language-based networks.
+- Compare graph structures using similarity and distance metrics.
+- Identify communities using graph-based clustering techniques.
+- Provide visual insights through statistical and network visualizations.
 
 ---
 
 ## Project Features
 
-- Multilingual edit activity analysis
-- Geospatial mapping of contributions
-- Geographical distance analysis
-- Temporal trend evaluation (hourly, daily, monthly)
-- Language-wise contribution analysis
-- Clean and structured visualizations
-- Optimized preprocessing pipeline for large-scale datasets
+- Multilingual Wikipedia analysis
+- Geographical distance calculation
+- Language and country relationship analysis
+- Translation network construction
+- Graph similarity analysis
+- Geospatial analysis
+- Louvain community detection
+- Network-based visualization
+- CSV-based data processing
+- Python-based analytical pipeline
 
 ---
 
 ## Data Sources
 
-- **Wikipedia Public API:** For edit history and metadata
-- **Open Wikipedia Contribution Datasets:** To enrich regional analysis
-- **Geo-IP Databases:** For mapping user IPs to locations
+The project uses the following data sources:
+
+- **Wikipedia / MediaWiki data** for language and article information.
+- **Country-language datasets** for associating countries with Wikipedia language editions.
+- **Geographical distance data** for calculating distances between countries.
+- Processed CSV datasets generated during the analysis.
 
 ---
 
 ## Technologies Used
 
-- **Programming Language:** Python 3.x
-- **Data Processing:** Pandas, NumPy
-- **Visualization:** Matplotlib, Seaborn
-- **Geospatial Mapping:** GeoPandas, Folium
-- **API Integration:** MediaWiki (Wikipedia) API
+| Technology | Purpose |
+|------------|---------|
+| Python 3.x | Main programming language |
+| Pandas | Data processing and analysis |
+| NumPy | Numerical computation |
+| Matplotlib | Data visualization |
+| Seaborn | Statistical visualization |
+| GeoPandas | Geospatial analysis |
+| Folium | Interactive geographical visualization |
+| NetworkX | Graph and network analysis |
+| Louvain | Community detection |
+| MediaWiki API | Wikipedia data collection |
 
 ---
 
@@ -76,5 +94,4 @@ Key objectives include:
 
 ```bash
 git clone https://github.com/pranjaykumar926/Understanding-the-Role-of-Geographical-Distance-in-Wikipedia-Translations.git
-
 cd Understanding-the-Role-of-Geographical-Distance-in-Wikipedia-Translations

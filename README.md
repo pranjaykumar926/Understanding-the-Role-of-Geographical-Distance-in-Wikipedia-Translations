@@ -32,48 +32,49 @@ Wikipedia is among the most actively edited and accessed online encyclopedias. T
 
 Key objectives include:
 
-* Analyzing the **spatial distribution** of Wikipedia contributions
-* Studying **temporal trends** in edit activity
-* Investigating **language-wise differences** in contributions
-* Understanding the role of **geographical distance** in Wikipedia translations
-* Delivering **visual insights** through interactive and static representations
+- Analyzing the **spatial distribution** of Wikipedia contributions
+- Studying **temporal trends** in edit activity
+- Investigating **language-wise differences** in contributions
+- Understanding the role of **geographical distance** in Wikipedia translations
+- Delivering **visual insights** through interactive and static representations
 
 ---
 
 ## Project Features
 
-* Multilingual edit activity analysis
-* Geospatial mapping of contributions
-* Geographical distance analysis
-* Temporal trend evaluation (hourly, daily, monthly)
-* Language-wise contribution analysis
-* Clean and structured visualizations using industry-standard libraries
-* Optimized preprocessing pipeline for large-scale datasets
+- Multilingual edit activity analysis
+- Geospatial mapping of contributions
+- Geographical distance analysis
+- Temporal trend evaluation (hourly, daily, monthly)
+- Language-wise contribution analysis
+- Clean and structured visualizations
+- Optimized preprocessing pipeline for large-scale datasets
 
 ---
 
 ## Data Sources
 
-* **Wikipedia Public API:** For edit history and metadata
-* **Open Wikipedia Contribution Datasets:** To enrich regional analysis
-* **Geo-IP Databases:** For mapping user IPs to locations
+- **Wikipedia Public API:** For edit history and metadata
+- **Open Wikipedia Contribution Datasets:** To enrich regional analysis
+- **Geo-IP Databases:** For mapping user IPs to locations
 
 ---
 
 ## Technologies Used
 
-* **Programming Language:** Python 3.x
-* **Data Processing:** Pandas, NumPy
-* **Visualization:** Matplotlib, Seaborn
-* **Geospatial Mapping:** GeoPandas, Folium
-* **API Integration:** MediaWiki (Wikipedia) API
+- **Programming Language:** Python 3.x
+- **Data Processing:** Pandas, NumPy
+- **Visualization:** Matplotlib, Seaborn
+- **Geospatial Mapping:** GeoPandas, Folium
+- **API Integration:** MediaWiki (Wikipedia) API
 
 ---
 
 ## Installation and Setup
 
-### 1. Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/pranjaykumar926/Understanding-the-Role-of-Geographical-Distance-in-Wikipedia-Translations.git
+
 cd Understanding-the-Role-of-Geographical-Distance-in-Wikipedia-Translations

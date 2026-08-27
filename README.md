@@ -87,6 +87,11 @@ The project uses the following data sources:
 | MediaWiki API | Wikipedia data collection |
 
 ---
+## Distance Metric
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/pranjaykumar926/Understanding-the-Role-of-Geographical-Distance-in-Wikipedia-Translations/main/Distance_metric.png" alt="Distance Metric" width="900">
+</p>
 
 ## Installation and Setup
 
